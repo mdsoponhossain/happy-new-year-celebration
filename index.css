@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+
+
+#banner-image-container {
+    background-image: url('./resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 500px;
+}
+
+.holiday-deals {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-red {
+    color: red
+}
+
+.text-black {
+    color: red
+}
+
+.text-large {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.text-medium {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#image-deals-image {
+    width: 20px;
+    display: block;
+}
+
+.image-container-image {
+    display: grid;
+    justify-content: center;
+}
+
+#midnight-bg-image {
+    background-image: url(./resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#midnight_party_container {
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right, black, rgb(235, 214, 184));
+    opacity: 80%;
+    display: flex;
+    padding: 70px;
+    align-items: center;
+
+}
+
+
+#new-park-hotel{
+    height: 400px;
+    background-image: linear-gradient(rgb(243, 187, 187), rgb(245, 228, 228));
+    opacity: 70%;
+    text-align: center;
+}
+#new-park-hotel>div>h3{
+    margin-bottom: 10px;
+}
